@@ -1,9 +1,9 @@
 import React from "react";
 import styles from "../about-us/styles.module.scss";
 import Image from "next/image";
-import tazzy from "../../assets/images/two.jpeg";
-import three from "../../assets/images/three.jpeg";
-import four from "../../assets/images/four.jpeg";
+import tazzy from "../../assets/images/big (3).jpg";
+import three from "../../assets/images/big (4).jpg";
+import four from "../../assets/images/big (2).jpg";
 
 export default function AboutUs() {
   return (
