@@ -1,7 +1,9 @@
 import React from "react";
 import styles from "../about-us/styles.module.scss";
 import Image from "next/image";
-import tazzy from "../../assets/images/Moritz image.svg";
+import tazzy from "../../assets/images/two.jpeg";
+import three from "../../assets/images/three.jpeg";
+import four from "../../assets/images/four.jpeg";
 
 export default function AboutUs() {
   return (
@@ -22,18 +24,18 @@ export default function AboutUs() {
         <div className={styles.aboutus_text}>
           <h1>About Us</h1>
           <p>
-            Animal Rescue Fund was founded in 2005 by Leilani and Rick
+          Millie Animal Rescue Fund was founded in 2005 by Leilani and Rick
             Laca.
           </p>
           <p>
-            After their beloved rescue boxer Tazzy passed away in 2004, Leilani
+            After their beloved rescue boxer Millie passed away in 2004, Leilani
             and Rick made a commitment to do everything in their power to help
-            other animals in order to honor and thank Tazzy for the love he
+            other animals in order to honor and thank Millie for the love he
             brought into their lives.
           </p>
           <p>
             In the years since, many amazing people have joined the mission of
-            Animal Fund, with each one of them bringing the dedication and love
+            Millie Animal Fund, with each one of them bringing the dedication and love
             for the furry companions they’ve lost and a passion to help other
             animals in need.
           </p>
@@ -66,7 +68,7 @@ export default function AboutUs() {
         </div>
         <div className={styles.tazzy_image}>
         <Image
-          src={tazzy}
+          src={three}
           alt="tazzy"
           width={100}
           className={styles.tazzy_first}
@@ -84,14 +86,14 @@ export default function AboutUs() {
         </div>
         <div className={styles.tazzy_img}>
         <Image
-          src={tazzy}
+          src={four}
           alt="tazzy"
           width={100}
           className={styles.tazzy_second}
         />
       </div>
       <div className={styles.aboutus_text_two}>
-        <p>Tazzy Fund also supports other non profit animal rescues with dogs and cats, with the greatest needs. These include the elderly, medically-challenged, and those who need additional behavior related training to allow them to be placed in to a home. </p>
+        <p>Millie Fund also supports other non profit animal rescues with dogs and cats, with the greatest needs. These include the elderly, medically-challenged, and those who need additional behavior related training to allow them to be placed in to a home. </p>
         <p>We require that these animals be housed in foster homes, not a kennel or boarding facility. The rescue must be committed to caring for the animal until a permanent home can be found.</p>
       </div>
       </div>

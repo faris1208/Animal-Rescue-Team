@@ -1,15 +1,16 @@
 import React from 'react'
 import styles from "../donate/styles.module.scss"
 import Image from 'next/image'
-import dog from "../../assets/images/Moritz image.svg"
+import dog from "../../assets/images/one.jpeg"
+import two from "../../assets/images/four.jpeg"
 import Link from 'next/link'
 
 export default function Donate() {
   return (
     <div className={styles.donate_container}>
-        <div className={styles.donate_btn}>
+        {/* <div className={styles.donate_btn}>
             <button>Donate</button>
-        </div>
+        </div> */}
         <div className={styles.dog_image}>
             <Image
             src={dog}
@@ -18,7 +19,7 @@ export default function Donate() {
             height={200}
             className={styles.dog_img}
              />
-             <p>Animal Rescue Fund is a 501(C)3 non-profit located in Los Angeles, California. </p>
+             <p>Anderson Family in memory of Millie… </p>
         </div>
         <div className={styles.about_btn}>
             <Link href={"/about-us"}>
@@ -28,7 +29,7 @@ export default function Donate() {
 
         <div className={styles.dog_image}>
             <Image
-            src={dog}
+            src={two}
             alt='dog'
             width={100}
             height={200}
