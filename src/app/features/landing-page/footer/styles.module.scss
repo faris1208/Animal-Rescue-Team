@@ -1,0 +1,103 @@
+@import "../../../../styles/index.scss";
+
+.footer_container{
+    background-color: #2B2B2B;
+    padding: 40px 100px;
+    .footer_about{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        a{
+            text-decoration: none;
+
+            h3{
+                font-family: "Helvetica Neue", Arial, sans-serif;
+                font-weight: 700;
+                font-style: normal;
+                font-size: 30px;
+                letter-spacing: 2px;
+                text-transform: uppercase;
+                color: #fff;
+            }
+        }
+    }
+
+    .copy{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        p{
+            font-family: "Helvetica Neue", Arial, sans-serif;
+            font-weight: bold;
+            font-style: normal;
+            font-size: 18px;
+            letter-spacing: 0.2px;
+            line-height: 1.6em;
+            color: rgba(255, 255, 255, .4);
+            white-space: pre-wrap;
+            margin-top: 25px;
+        }
+
+        a{
+            font-family: "Helvetica Neue", Arial, sans-serif;
+            font-weight: bold;
+            font-style: normal;
+            font-size: 18px;
+            letter-spacing: 0.2px;
+            line-height: 1.6em;
+            color: rgba(255, 255, 255, .4);
+            white-space: pre-wrap;
+            margin-top: 25px;
+            text-decoration: none;
+        }
+
+        
+    }
+
+    @include responsive("mobile"){
+        background-color: #2B2B2B;
+        padding: 40px 20px;
+        .footer_about{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+    
+            a{
+                text-decoration: none;
+    
+                h3{
+                    font-family: "Helvetica Neue", Arial, sans-serif;
+                    font-weight: 700;
+                    font-style: normal;
+                    font-size: 30px;
+                    letter-spacing: 2px;
+                    text-transform: uppercase;
+                    color: #fff;
+                }
+            }
+        }
+    
+        .copy{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+    
+            p{
+                font-family: "Helvetica Neue", Arial, sans-serif;
+                font-weight: bold;
+                font-style: normal;
+                font-size: 18px;
+                letter-spacing: 0.2px;
+                line-height: 1.6em;
+                color: rgba(255, 255, 255, .4);
+                white-space: pre-wrap;
+                margin-top: 20px;
+                text-align: center;
+            }
+        }
+    }
+}
