@@ -36,7 +36,7 @@ export default function AboutUs() {
           <p>
             In the years since, many amazing people have joined the mission of
             Millie Animal Fund, with each one of them bringing the dedication and love
-            for the furry companions they’ve lost and a passion to help other
+            for the furry companions they have lost and a passion to help other
             animals in need.
           </p>
         </div>

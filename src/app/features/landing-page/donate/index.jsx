@@ -29,8 +29,9 @@ export default function Donate() {
             height={200}
             className={styles.dog_img}
              />
-             {/* <p>Tazzy Animal Rescue Fund is a 501(C)3 non-profit located in Los Angeles, California. </p> */}
         </div>
+
+        
         <div className={styles.about_btn}>
             <Link href={"/about-us"}>
                 <button>About US</button>
