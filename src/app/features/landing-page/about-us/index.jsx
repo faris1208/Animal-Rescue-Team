@@ -46,7 +46,7 @@ export default function AboutUs() {
             Our mission is to help reduce the number of dogs and cats
             relinquished by their owners to City & County Animal Shelters. We
             focus our attention on animal ownership retention by providing those
-            who are financially struggling with FREE community programs.{" "}
+            who are financially struggling with FREE community programs.
           </p>
           <ul>
             <li>There are 3,943 animal shelters in the US.</li>
