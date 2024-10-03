@@ -1,8 +1,8 @@
 import React from 'react'
 import styles from "../donate/styles.module.scss"
 import Image from 'next/image'
-import dog from "../../assets/images/big (1).jpg"
-import two from "../../assets/images/last.PNG"
+import dog from "../../assets/images/image (5).svg"
+import two from "../../assets/images/image (4).svg"
 import Link from 'next/link'
 
 export default function Donate() {
