@@ -29,7 +29,7 @@ export default function Donate() {
             height={200}
             className={styles.dog_img}
              />
-             <p>Anderson Family in memory of Millie's</p>
+             <p>Anderson Family in memory of Millie&apos;s</p>
         </div>
 
         
