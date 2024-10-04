@@ -1,7 +1,7 @@
 import React from 'react'
 import styles from "../donate/styles.module.scss"
 import Image from 'next/image'
-import dog from "../../assets/images/image (5).svg"
+import dog from "../../assets/images/IMG_3380.JPG"
 import two from "../../assets/images/image (4).svg"
 import Link from 'next/link'
 
