@@ -16,7 +16,7 @@ export default function Footer() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Milliefund@gmail.com
+          Laylaivanson@gmail.com
           {/* <button>Go to Gmail</button> */}
         </a>
         {/* <p>tazzyfund@gmail.com</p> */}
