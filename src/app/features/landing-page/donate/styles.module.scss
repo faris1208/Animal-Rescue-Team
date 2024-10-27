@@ -44,6 +44,43 @@
         }
     }
 
+    .new_img{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 30px;
+
+        .new_img_img{
+            width: 100%;
+            object-fit: contain;
+        }
+
+        h3{
+            font-size: 20px;
+            font-weight: bold;
+            // width: 50%;
+            line-height: 20px;
+            letter-spacing: 1px;
+            font-family: Arial, Helvetica, sans-serif;
+            color: rgba(26, 26, 26, .9);
+            margin-top: 20px;
+            text-align: center;
+        }
+
+        p{
+            font-size: 14px;
+            font-weight: bold;
+            width: 50%;
+            line-height: 20px;
+            letter-spacing: 1px;
+            font-family: Arial, Helvetica, sans-serif;
+            color: rgba(26, 26, 26, .9);
+            margin-top: 20px;
+        }
+    }
+
     .about_btn{
         display: flex;
         justify-content: center;
@@ -113,6 +150,45 @@
                 width: 80%;
             }
         }
+
+        .new_img{
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin-top: 30px;
+            padding: 0px 20px;
+    
+            .new_img_img{
+                width: 100%;
+                object-fit: contain;
+                height: 100% !important;
+            }
+    
+            h3{
+                font-size: 20px;
+                font-weight: bold;
+                width: 100%;
+                line-height: 20px;
+                letter-spacing: 1px;
+                font-family: Arial, Helvetica, sans-serif;
+                color: rgba(26, 26, 26, .9);
+                margin-top: 15px;
+            }
+    
+            p{
+                font-size: 14px;
+                font-weight: 500;
+                width: 100%;
+                line-height: 18px;
+                letter-spacing: 0.1px;
+                font-family: Arial, Helvetica, sans-serif;
+                color: rgba(26, 26, 26, .9);
+                margin-top: 20px;
+            }
+        }
+    
     
         .about_btn{
             display: flex;
